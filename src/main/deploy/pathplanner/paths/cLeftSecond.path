@@ -3,13 +3,13 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 0.4938659058487873,
-        "y": 6.900912981455065
+        "x": 0.5,
+        "y": 7.0
       },
       "prevControl": null,
       "nextControl": {
-        "x": 0.5040022694851507,
-        "y": 6.199572072364156
+        "x": 0.5101363636363634,
+        "y": 6.298659090909092
       },
       "isLocked": false,
       "linkedName": null
@@ -68,22 +68,26 @@
   "pointTowardsZones": [],
   "eventMarkers": [
     {
-      "name": "OpenIntake",
-      "waypointRelativePos": 0.0,
-      "endWaypointRelativePos": null,
-      "command": null
-    },
-    {
       "name": "RunIntake",
       "waypointRelativePos": 0.0,
       "endWaypointRelativePos": null,
-      "command": null
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "RunIntake"
+        }
+      }
     },
     {
-      "name": "CloseIntake",
-      "waypointRelativePos": 0.9885212694125443,
+      "name": "Shoot",
+      "waypointRelativePos": 2.0,
       "endWaypointRelativePos": null,
-      "command": null
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Shoot"
+        }
+      }
     }
   ],
   "globalConstraints": {
@@ -96,7 +100,7 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": -10.928931303188401
   },
   "reversed": false,
   "folder": "Blue",

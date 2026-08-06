@@ -8,8 +8,8 @@
       },
       "prevControl": null,
       "nextControl": {
-        "x": 7.831914132379248,
-        "y": 4.195691664603851
+        "x": 7.848139534883721,
+        "y": 4.195286282746745
       },
       "isLocked": false,
       "linkedName": null
@@ -63,13 +63,19 @@
   "pointTowardsZones": [],
   "eventMarkers": [
     {
-      "name": "CloseIntake",
-      "waypointRelativePos": 0,
+      "name": "RunIntake",
+      "waypointRelativePos": 0.0,
+      "endWaypointRelativePos": 1.2964213369345026,
+      "command": null
+    },
+    {
+      "name": "Shoot",
+      "waypointRelativePos": 2.0,
       "endWaypointRelativePos": null,
       "command": {
         "type": "named",
         "data": {
-          "name": "CloseIntake"
+          "name": "Shoot"
         }
       }
     }
@@ -90,7 +96,7 @@
   "folder": "Blue",
   "idealStartingState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": -93.88481906246267
   },
   "useDefaultConstraints": true
 }

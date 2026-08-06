@@ -16,12 +16,12 @@
     },
     {
       "anchor": {
-        "x": 0.494,
-        "y": 6.901
+        "x": 0.5,
+        "y": 7.0
       },
       "prevControl": {
-        "x": 1.2543373589635132,
-        "y": 6.549385164051355
+        "x": 1.2603373589635132,
+        "y": 6.648385164051355
       },
       "nextControl": null,
       "isLocked": false,
@@ -33,8 +33,20 @@
   "pointTowardsZones": [],
   "eventMarkers": [
     {
+      "name": "OpenIntake",
+      "waypointRelativePos": 0,
+      "endWaypointRelativePos": null,
+      "command": null
+    },
+    {
       "name": "CloseIntake",
-      "waypointRelativePos": 0.0,
+      "waypointRelativePos": 0.02,
+      "endWaypointRelativePos": null,
+      "command": null
+    },
+    {
+      "name": "OpenIntake",
+      "waypointRelativePos": 0.05,
       "endWaypointRelativePos": null,
       "command": null
     }

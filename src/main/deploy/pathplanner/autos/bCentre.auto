@@ -13,13 +13,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "bCentreAndRightSecond"
-          }
-        },
-        {
-          "type": "named",
-          "data": {
-            "name": "Shoot"
+            "pathName": "bLeftSecond"
           }
         }
       ]

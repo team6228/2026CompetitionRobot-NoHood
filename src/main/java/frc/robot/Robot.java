@@ -66,7 +66,7 @@ public class Robot extends TimedRobot {
     
     m_robotContainer.getDriveTrain().resetPoseToSelected();
     
-    autonomousCommand = m_robotContainer.getTimerAutonomousCommand();
+    autonomousCommand = m_robotContainer.getAutonomousCommand();
 
     if(autonomousCommand != null){
       autonomousCommand.schedule();

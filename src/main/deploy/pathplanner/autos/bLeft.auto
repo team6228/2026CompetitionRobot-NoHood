@@ -15,12 +15,6 @@
           "data": {
             "pathName": "bLeftSecond"
           }
-        },
-        {
-          "type": "named",
-          "data": {
-            "name": "Shoot"
-          }
         }
       ]
     }

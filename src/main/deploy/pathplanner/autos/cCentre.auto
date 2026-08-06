@@ -13,13 +13,7 @@
         {
           "type": "path",
           "data": {
-            "pathName": "cCentreSecond"
-          }
-        },
-        {
-          "type": "named",
-          "data": {
-            "name": "Shoot"
+            "pathName": "cLeftSecond"
           }
         }
       ]

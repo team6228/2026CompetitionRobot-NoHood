@@ -9,18 +9,6 @@
           "data": {
             "pathName": "aRight"
           }
-        },
-        {
-          "type": "named",
-          "data": {
-            "name": "DriveAtTarget"
-          }
-        },
-        {
-          "type": "named",
-          "data": {
-            "name": "Shoot"
-          }
         }
       ]
     }

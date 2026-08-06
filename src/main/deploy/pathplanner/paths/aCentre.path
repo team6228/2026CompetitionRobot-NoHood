@@ -17,11 +17,11 @@
     {
       "anchor": {
         "x": 2.3362530120481932,
-        "y": 4.015592011412268
+        "y": 4.0
       },
       "prevControl": {
         "x": 1.9317065454095053,
-        "y": 4.015592011412268
+        "y": 4.0
       },
       "nextControl": null,
       "isLocked": false,
@@ -36,7 +36,12 @@
       "name": "Shoot",
       "waypointRelativePos": 1.0,
       "endWaypointRelativePos": null,
-      "command": null
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Shoot"
+        }
+      }
     }
   ],
   "globalConstraints": {

@@ -33,10 +33,15 @@
   "pointTowardsZones": [],
   "eventMarkers": [
     {
-      "name": "DriveAtTarget",
-      "waypointRelativePos": 1.0,
+      "name": "Shoot",
+      "waypointRelativePos": 1,
       "endWaypointRelativePos": null,
-      "command": null
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Shoot"
+        }
+      }
     }
   ],
   "globalConstraints": {
@@ -49,7 +54,7 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 0.0
+    "rotation": -23.0
   },
   "reversed": false,
   "folder": "Blue",

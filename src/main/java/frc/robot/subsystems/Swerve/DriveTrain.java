@@ -446,7 +446,7 @@ public class DriveTrain extends SubsystemBase {
 
         // 1️⃣ Timer reset
         new InstantCommand(() -> {
-            timer.reset();
+            timer.reset(); 
             timer.start();
         }),
 

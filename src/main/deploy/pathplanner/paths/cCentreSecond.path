@@ -71,19 +71,45 @@
       "name": "OpenIntake",
       "waypointRelativePos": 0.0,
       "endWaypointRelativePos": null,
-      "command": null
+      ""command": {
+        "type": "named",
+        "data": {
+          "name": "OpenIntake"
+        }
+      }
     },
     {
       "name": "RunIntake",
       "waypointRelativePos": 0.059419311276180484,
       "endWaypointRelativePos": null,
-      "command": null
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "RunIntake"
+        }
+      }
     },
     {
       "name": "CloseIntake",
       "waypointRelativePos": 1.1451721809587827,
       "endWaypointRelativePos": null,
-      "command": null
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "CloseIntake"
+        }
+      }
+    },
+    {
+      "name": "Shoot",
+      "waypointRelativePos": 2.0,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Shoot"
+        }
+      }
     }
   ],
   "globalConstraints": {
